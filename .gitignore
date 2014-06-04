@@ -1,0 +1,22 @@
+# Ignore build and temporary files
+dist/
+tmp/
+
+# Ignore vendor code
+bower_components/
+node_modules/
+
+# Ignore cache, debug, editor, and OS files
+.sass-cache
+npm-debug.log
+*.sublime-workspace
+*.sublime-project
+*.swp
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+

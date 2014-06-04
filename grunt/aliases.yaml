@@ -1,0 +1,19 @@
+default:
+  - 'lint'
+  - 'build'
+  - 'test'
+
+lint:
+  - 'jshint'
+
+test:
+  - 'qunit'
+
+build:
+  - 'clean:dist'
+  - 'sass:compile'
+  - 'transpile:amd'
+  - 'concat:amd'
+  - 'transpile:commonjs'
+  - 'requirejs:browser'
+  - 'concat:license'
